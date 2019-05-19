@@ -2,23 +2,11 @@
   "name": "gentle-naiad-deck",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "mdx-deck index.mdx --no-open",
-    "build": "mdx-deck build index.mdx",
+    "start": "mdx-deck deck.mdx --no-open",
+    "build": "mdx-deck build deck.mdx",
     "test": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ThewApp/gentle-naiad-deck.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ThewApp/gentle-naiad-deck/issues"
-  },
-  "homepage": "https://github.com/ThewApp/gentle-naiad-deck#readme",
   "devDependencies": {
     "mdx-deck": "^2.3.2"
   }
