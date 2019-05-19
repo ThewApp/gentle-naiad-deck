@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ThewApp/gentle-naiad-deck/issues"
   },
-  "homepage": "https://github.com/ThewApp/gentle-naiad-deck#readme"
+  "homepage": "https://github.com/ThewApp/gentle-naiad-deck#readme",
+  "devDependencies": {
+    "mdx-deck": "^2.3.2"
+  }
 }
