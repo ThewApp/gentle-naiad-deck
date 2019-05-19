@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "mdx-deck deck.mdx --no-open",
-    "build": "mdx-deck build deck.mdx --basepath=\"/gentle-naiad-deck\"",
+    "build": "mdx-deck build deck.mdx",
     "test": "npm run build"
   },
   "devDependencies": {
