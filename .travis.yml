@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - "node"
-before_deploy: find . | grep -v 'dist' | xargs rm && cp -r dist/* . && rm -r dist
+before_deploy: find . | grep -v 'dist' | xargs rm -r && cp -r dist/* . && rm -r dist
 deploy:
   provider: pages
   skip_cleanup: true
